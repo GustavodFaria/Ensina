@@ -340,13 +340,61 @@
                 <!--Avaliações-->
 
                 <!--Contato-->
+                    <section class="contact" id="contact">
+                        <h1 class="heading"><span>Fale conosco</span></h1>
+
+                        <div class="row">
+
+                            <div class="image">
+                                <img src="IMAGENS/Adult talking cell phone-bro.svg" alt="">
+                            </div>
+
+                            <form action="" method="post">
+                                <span>Seu nome</span>
+                                <input type="text" required placeholder="Nome completo" maxlength="50" name="name" class="box">
+
+                                <span>Seu email</span>
+                                <input type="email" required placeholder="email" maxlength="50" name="email" class="box">
+
+                                <span>Seu número de telefone</span>
+                                <input type="number" required placeholder="Número de telefone" max="99999999999" min="00000000000" name="number" class="box" onkeypress ="if(this.value.length == 10) return false;">
+
+                                <span>Selecione o curso</span>
+                                <select name="courses" class="box">
+                                    <option value="" disabled selected>Selecione o curso --</option>
+                                    <option value="Desenvolvimento web" >Desenvolvimento web</option>
+                                    <option value="Ciência e Biologia">Ciência e Biologia</option>
+                                    <option value="Engenharia" >Engenharia</option>
+                                    <option value="Marketing Digital">Marketing Digital</option>
+                                    <option value="Design">Design</option>
+                                    <option value="Banco de Dados">Banco de Dados</option>
+                                    <option value="Phyton">Phyton</option>
+                                    <option value="Inteligência artificial">Inteligência artificial</option>
+                                    <option value="React">React</option>
+                                    <option value="NodeJs">NodeJs</option>
+                                </select>
+                                <span>Gênero</span>
+                                <div class="radio">
+                                    <input type="radio" name= "gender" value="male" id="male">
+                                    <label for="male"><main>Homem</main></label>
+                                    <input type="radio" name= "gender" value="female" id="female">
+                                    <label for="female"><main>Mulher</main></label>
+                                </div>
+                                <a href="#contract" class="btn">Enviar</a>
+                            </form>
+                        </div>
+                    </section>
                 <!--Contato-->
 
         <!--Body-->
 
 
         <!--Footer-->
-
+            <footer>
+                <div class="footer">
+                    <span>Feito por Gustavo de Faria</span>
+                </div>
+            </footer>
         <!--Footer-->
 
 
